@@ -5,7 +5,7 @@ const searchFor = "macbook";
 const list = [];
 
 (async()=> {
-    const browser = await puppeteer.launch({headless: true});
+    const browser = await puppeteer.launch({});
     const page = await browser.newPage();
 console.log("iniciei");
     await page.goto(url);
